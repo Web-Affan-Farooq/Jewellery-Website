@@ -1,9 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* oswald font*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+
+  /* font families */
+  --font-roboto:"Roboto", sans-serif;
+  --font-oswald:"Oswald", sans-serif;
+  --font-rye:"Rye", serif;
+}
+
 * {
   font-family: "Playfair Display", serif;
+}
+
+.content-1::before {
+  content: 'Pendulum Necklace';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: left;
+  padding: 0px 30px;
+  color: white;  
+  opacity: 0;
+  font-size: 20px;
+  transition: all 0.25s ease-in-out;
+}
+.content-1:hover::before {
+  transform: translateY(100px);
+  opacity: 1;
+}
+.content-1:hover~img {
+  transition: transform 0.7s ease-in-out;
+  transform: scale(2);
 }

@@ -1,0 +1,16 @@
+@keyframes scroll-infinite {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.scroll-list {
+    animation: scroll-infinite 20s linear infinite;
+}
+@media (max-width:500px) {
+    .scroll-list {
+        animation: scroll-infinite 15s linear infinite;
+    }
+}

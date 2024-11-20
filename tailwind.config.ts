@@ -14,9 +14,16 @@ const config: Config = {
       colors: {
         custombrown: "#A29875",
         customgray:"#6C757D",
+        customlightbrown:'#0000009E',
       },
       backgroundColor: {
         background: "#A29875",
+        customgray:"#ced1d6",
+      },
+      fontFamily: {
+        roboto: "var(--font-roboto)",
+        oswald: "var(--font-oswald)",
+        rye: "var(--font-rye)",
       }
     },
   },
