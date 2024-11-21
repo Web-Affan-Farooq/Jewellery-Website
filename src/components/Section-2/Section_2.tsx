@@ -55,7 +55,7 @@ const Section_2 = () => {
             alt="img"
             width={250}
             height={300}
-            className="object-cover object-left w-[250px] h-[300]"
+            className="object-cover object-bottom w-[250px] h-[300]"
           />
         </div>
         <div className="content-1 relative w-[250px] h-[300px]">

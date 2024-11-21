@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import "./style.css";
 import Card_testimonials from "./Card-testimonials";
 

@@ -13,7 +13,6 @@ const Section_5 = () => {
         <Button_2/>
     </div>
     <Image src={'/images/section-5-images/2.svg'} alt='jewelery image' width={250} height={350}/>
-    {/* <Image src={'/images/section-5-images/3.svg'} alt='img' width={200} height={200} className=''/> */}
    </section>
   )
 }

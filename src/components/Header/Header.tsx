@@ -19,12 +19,6 @@ const Header = () => {
          <i className="fa-solid fa-cart-shopping text-white"><div className="w-5 h-5 font-normal rounded-full bg-red-500 text-white text-center">1</div></i>
         </div>
 
-        {/* <div className="hidden max-[860px]:block text-[30px] text-white absolute right-14 top-4" onClick={handleNav}>
-        {
-          navstatus? <i className="fa-solid fa-xmark"></i>:<i className="fa-solid fa-bars"></i>
-        }
-        </div> */}
-
     </header>
   );
 };

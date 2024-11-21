@@ -8,7 +8,7 @@ const Section_10 = () => {
               <br />
               <br />
               <div className='flex flex-row flex-nowrap gap-3 m-auto justify-center align-middle'>
-                <input type="text" name='email' id='email' placeholder='email address' required className='w-[280px] px-[10px] py-[5px]'/>
+                <input type="text" name='email' id='email' placeholder='Email address' required className='w-[280px] px-[10px] py-[5px]'/>
                 <button type="button" className='px-[25px] py[10px] bg-background rounded-lg text-white text-[20px] max-md:px[20px]'>Subscribe</button>
               </div>
     </section>

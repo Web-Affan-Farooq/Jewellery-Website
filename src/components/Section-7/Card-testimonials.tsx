@@ -14,10 +14,10 @@ const Card_testimonials = () => {
             <p className="text-[15px] font-bold">Muniza Amir</p>
             <p className="text-[15px] font-light">CEO and Founder Manzarri</p>
             <p className="font-extrabold leading-6">
-              <span className="font-extrabold text-[30px]">"</span>Lorem ipsum
+              <span className="font-extrabold text-[30px]">{`"`}</span>Lorem ipsum
               dolor sit, amet consectetur adipisicing elit. Necessitatibus
               delectus, ipsum neque rem, minima aspernatur odio incidunt
-              <span className="font-extrabold text-[30px]">"</span>
+              <span className="font-extrabold text-[30px]">{`"`}</span>
             </p>
           </div>
   )
